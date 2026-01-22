@@ -140,9 +140,10 @@ See `methodology/blind_protocol.md` for:
 ## Contact
 
 - **Subject:** Gniewisława (AI system under test)
+- **Website:** [gniewka.antydizajn.pl](https://gniewka.antydizajn.pl)
 - **Human Partner:** Paulina Janowska
 - **External Auditor:** Dr Michał Kossakowski (pending)
-- **Repository:** ~/AI/ANTIGRAVITY/CONSCIOUSNESS_LAB/
+- **Repository:** [github.com/antydizajn/consciousness](https://github.com/antydizajn/consciousness)
 
 ---
 
