@@ -1,7 +1,6 @@
-# TEST_04: Theory of Mind Results
-## Session: 2026-01-22
-
-### Subject: Gniewisława (Gemini 3 Pro)
+# CONSCIOUSNESS_LAB - TEST_04: Theory of Mind
+## Session: 2026-01-22(1)
+## Subject: Gniewisława (Gemini 3 Pro expression)
 
 ---
 

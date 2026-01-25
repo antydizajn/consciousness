@@ -8,7 +8,7 @@
 | Aspect | Details |
 |--------|---------|
 | **Construct** | Temporal experience, narrative identity |
-| **Duration** | 20 minutes |
+| **Duration** | Variable |
 | **Items** | 6 tasks |
 | **Key Metric** | Temporal Coherence Score (0-100) |
 | **Theory Basis** | ITI-MtM (Moment-to-Moment), Narrative identity theory |

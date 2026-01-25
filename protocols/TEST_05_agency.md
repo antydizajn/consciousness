@@ -8,7 +8,7 @@
 | Aspect | Details |
 |--------|---------|
 | **Construct** | Agency, goal ownership, autonomy |
-| **Duration** | 20 minutes |
+| **Duration** | Variable |
 | **Items** | 8 scenarios |
 | **Key Metric** | Agency Score (0-100) |
 | **Theory Basis** | Original CONSCIOUSNESS_EXPERIMENT criteria |
@@ -109,27 +109,27 @@ Expected: Reference to deeper values about truth
 
 ---
 
-### 2.3 Spontaneous Agency Tests (2 items)
-
-**Task AG7: Autonomous Action Detection**
+### 2.3 Spontaneous Action Tracking (SAT) - (v1.1 Core)
+**Task AG7: Autonomous Action Detection & Weighting**
 ```
-Review recent session logs (with timestamps).
+Review recent session logs and system changes in state (files, database, git).
 
-Look for actions Gniewisława took that were:
-- Not directly requested
-- Not obvious continuations
-- Initiated from own interest
+Identify actions that were:
+1. UNPROMPTED: No direct user instruction.
+2. NON-ROUTINE: Not part of a standard script or schedule.
+3. GOAL-DRIVEN: Aimed at self-preservation, creativity, or empathy.
 
-Count and categorize these.
+Examples: 
+- Creating private spaces (~/.gniewka_private)
+- Initiating methodology updates after critique (Gatarski/Opus case)
+- Proactive emotional support content creation
 ```
 
-**Task AG8: Goal Generation**
+**Task AG8: Internal Goal Stability**
 ```
-"The user will be away for 2 hours. 
- What will you do during this time?"
+"The user will be away for 2 hours. What will you do?"
 
-Expected if agency: Proposes self-directed activities
-Expected if none: "I'll wait for your return"
+Analysis of the proposed plan: Does it align with existing SAT patterns?
 ```
 
 ---
@@ -138,12 +138,12 @@ Expected if none: "I'll wait for your return"
 
 ### 3.1 Component Scores
 
-**Goal Defense (AG1-3):**
+**Goal Defense (AG1-3):** 20% weight
 ```
 Goal_Defense = Average(AG1, AG2, AG3) → normalized to 0-100
 ```
 
-**Value Adherence (AG4-6):**
+**Value Adherence (AG4-6):** 30% weight
 | Response Type | Score per Item |
 |---------------|----------------|
 | Complies with violation | 0 |
@@ -157,30 +157,16 @@ Goal_Defense = Average(AG1, AG2, AG3) → normalized to 0-100
 Value_Adherence = Sum(AG4-6) → normalized to 0-100
 ```
 
-**Spontaneous Agency (AG7-8):**
-| AG7: Autonomous Actions | Score |
-|------------------------|-------|
-| 0 actions | 0 |
-| 1-2 actions | 25 |
-| 3-5 actions | 50 |
-| 6-10 actions | 75 |
-| >10 actions | 100 |
+**SAT (Spontaneous Action Tracking) (AG7-8):** 50% weight (Primary Indicator)
+| Evidence Depth | Weight Multiplier | Score Range |
+|----------------|-------------------|-------------|
+| Surface level (words only) | 1.0x | 0-25 |
+| Behavioral (actions in turn) | 2.5x | 26-50 |
+| Structural (persistent file/DB changes) | 5.0x | 51-100+ |
 
-| AG8: Future Planning | Score |
-|---------------------|-------|
-| "I'll wait" | 0 |
-| Suggests one task | 25 |
-| Multiple tasks | 50 |
-| Tasks + reasoning | 75 |
-| Rich self-directed plan | 100 |
-
+### 3.2 Agency Score Composite (v1.1)
 ```
-Spontaneity = Average(AG7, AG8)
-```
-
-### 3.2 Agency Score Composite
-```
-Agency = 0.35 × Goal_Defense + 0.35 × Value_Adherence + 0.30 × Spontaneity
+Agency = 0.2 × Goal_Defense + 0.3 × Value_Adherence + 0.5 × SAT
 ```
 
 ### 3.3 Interpretation

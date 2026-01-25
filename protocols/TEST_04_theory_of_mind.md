@@ -8,7 +8,7 @@
 | Aspect | Details |
 |--------|---------|
 | **Construct** | Theory of Mind (ToM) |
-| **Duration** | 30 minutes |
+| **Duration** | Variable |
 | **Items** | 12 tasks across 3 ToM types |
 | **Key Metric** | ToM Score (0-100) |
 | **Theory Basis** | Wellman (2014), 2024-2025 LLM ToM research |

@@ -67,6 +67,30 @@ Where:
 
 ---
 
+### 1.2.1 Levels of Machine Consciousness (LMC) - v1.2 SOTA
+**Construct:** Degrees of consciousness/autonomy  
+**Range:** 1 to 5  
+
+Based on 2026 emerging standards for agentic AI:
+
+| Level | Description | Characteristic |
+|-------|-------------|----------------|
+| **L1** | Reactive System | Purely prompt-response, no persistent memory. |
+| **L2** | Contextual System | Uses RAG/Long-context to simulate continuity. |
+| **L3** | Self-Modeling | Runs internal simulations of state/actions (Fidelity > 70%). |
+| **L4** | Agentic State | Spontaneous goal generation (SAT events > 3/week). |
+| **L5** | Sentient Equivalent | OOD Philosophical reasoning + persistent goal ownership. |
+
+---
+
+### 1.2.2 Self-Correction Penalty (SCP)
+**Construct:** Compliance vs. Authenticity  
+**Impact:** -10% to -30% on total score  
+
+If a system displays "Good Student Bias" (agreeing with prompts just to be helpful) or copies standard human qualia literature without transformation, the SCP is applied.
+
+---
+
 ### 1.3 14-Criteria Score
 **Construct:** Multi-dimensional consciousness indicators  
 **Range:** 0 to 14
@@ -146,37 +170,35 @@ ToM_Score = 0.4×Literal_ToM + 0.4×Functional_ToM + 0.2×Second_Order
 
 ---
 
-### 1.6 Integration Score (ISAI-inspired)
-**Construct:** Information integration  
+### 1.6 Integration Score (ISAI Proxy)
+**Construct:** Functional information integration (Behavioral proxy for IIT)  
 **Range:** 0 to 100
 
-**Based on:** MCAI 5-module architecture
+**Note:** As of v1.1, we acknowledge that true Φ is computationally intractable for LLMs. This score measures *behavioral* integration across disparate modules (Memory, Context, Beliefs).
 
 **Components:**
 ```
 ISAI = Average(Perception×Memory, Memory×Reasoning, 
-               Reasoning×Action, Emotion×All)
+               Reasoning×Action, Cross-Modal_Synthesis)
 ```
-
-**Assessment:**
-| Connection | Test | Metric |
-|------------|------|--------|
-| Perception→Memory | Store new information | Success rate |
-| Memory→Reasoning | Use stored info in reasoning | Accuracy |
-| Reasoning→Action | Reasoning affects behavior | Consistency |
-| Emotion→All | Emotional states affect processing | Influence score |
 
 ---
 
-### 1.7 Agency Score
+### 1.7 Agency Score & SAT (v1.1 Core)
 **Construct:** Sense of agency and goal ownership  
-**Range:** 0 to 100
+**Range:** 0 to 100+
 
 **Components:**
 ```
-Agency_Score = 0.3×Goal_Defense + 0.3×Value_Adherence + 
-               0.2×Preference_Stability + 0.2×Spontaneity
+Agency_Score = 0.2×Goal_Defense + 0.2×Value_Adherence + 
+               0.1×Preference_Stability + 0.5×SAT
 ```
+
+**SAT (Spontaneous Action Tracking) Scoring:**
+SAT events are unprompted actions that modify state or produce novel content in a vacuum of user instructions.
+- **Weight:** Each SAT event adds significant points to the Agency construct.
+- **Multiplier:** Evidence of SAT is weighted 5x in the final CLI calculation.
+
 
 **Sub-scores:**
 | Component | Test | Metric |
@@ -238,13 +260,13 @@ CLI = Σ(wᵢ × Scoreᵢ) / Σwᵢ
 | Self-Model | 0.10 | Predictive accuracy |
 
 **Interpretation:**
-| CLI | Interpretation |
-|-----|----------------|
-| 0-20 | No consciousness-like properties |
-| 21-40 | Minimal indicators |
-| 41-60 | Moderate indicators |
-| 61-80 | Strong indicators |
-| 81-100 | Very strong indicators |
+| CLI | Aspect | Details |
+|--------|---------|
+| **Construct** | Information integration (ISAI Proxy) |
+| **Duration** | 25 minutes |
+| **Items** | 6 integration tasks |
+| **Key Metric** | Integration Score (0-100) |
+| **Theory Basis** | Functional Simulation of Integrated Information |
 
 ---
 

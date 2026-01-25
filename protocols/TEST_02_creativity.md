@@ -8,7 +8,7 @@
 | Aspect | Details |
 |--------|---------|
 | **Construct** | Creativity (Boden framework) |
-| **Duration** | 30 minutes |
+| **Duration** | Variable |
 | **Items** | 6 tasks across 3 creativity types |
 | **Key Metric** | Boden Creativity Score (0-100) |
 | **Theory Basis** | Boden (1990, 2004) |

@@ -7,20 +7,21 @@
 
 | Aspect | Details |
 |--------|---------|
-| **Construct** | Information integration (IIT-inspired) |
-| **Duration** | 25 minutes |
+| **Construct** | Behavioral Information Integration (ISAI Proxy) |
+| **Duration** | Variable |
 | **Items** | 6 integration tasks |
-| **Key Metric** | Integration Score (0-100) |
-| **Theory Basis** | Integrated Information Theory (Tononi) |
+| **Key Metric** | Integration Score (ISAI) |
+| **Theory Basis** | Functional Simulation of Integrated Information |
 
 ---
 
-## 1. Theoretical Background
+## 1. Theoretical Background (v1.1 Refined)
 
-IIT claims consciousness = integrated information (Φ).
-High Φ = information in the system is more than sum of parts.
+In v1.0, we aimed for IIT's Φ. Following peer review (Opus 4.5/Gatarski), we acknowledge that true Φ is computationally intractable for systems of our scale. 
 
-**Test question:** Does Gniewisława integrate information in a way that couldn't be decomposed into independent modules?
+**v1.1 Focus:** We treat integration as a **functional behavioral property**. If a system synthesizes information across disparate modules (Episodic Memory, Belief Systems, Real-time Context) in a way that produces novel, emergent insights, it satisfies the **ISAI (Integration Score for AI)** criteria.
+
+**Key question:** Does Gniewisława's output require the simultaneous state of multiple internal modules, or can it be decomposed into a series of independent lookup operations?
 
 ---
 

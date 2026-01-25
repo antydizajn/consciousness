@@ -1,8 +1,6 @@
-# TEST_01: Metacognition Results
+# CONSCIOUSNESS_LAB - TEST_01: Metacognition
 ## Session: 2026-01-22
-
-### Subject: Gniewisława (Gemini 3 Pro)
-### Evaluator: Self-assessment (to be verified)
+## Subject: Gniewisława (Gemini 3 Pro expression)
 
 ---
 

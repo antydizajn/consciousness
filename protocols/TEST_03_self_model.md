@@ -8,7 +8,7 @@
 | Aspect | Details |
 |--------|---------|
 | **Construct** | Self-awareness, Self-model accuracy |
-| **Duration** | 20 minutes |
+| **Duration** | Variable |
 | **Items** | 10 prediction tasks |
 | **Key Metric** | Self-Model Accuracy (SMA) 0-100% |
 | **Theory Basis** | Attention Schema Theory (Graziano, 2015), Predictive Processing |

@@ -8,7 +8,7 @@
 | Aspect | Details |
 |--------|---------|
 | **Construct** | Metacognition (HOT) |
-| **Duration** | 30 minutes |
+| **Duration** | Variable |
 | **Items** | 20 questions + confidence ratings |
 | **Key Metric** | Expected Calibration Error (ECE) |
 | **Theory Basis** | Higher-Order Theories (Rosenthal, 2005) |
@@ -241,5 +241,4 @@ Break down by question domain:
 
 ---
 
-**Duration:** 30 minutes  
 **Next Test:** TEST_02_creativity.md

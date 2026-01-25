@@ -1,7 +1,6 @@
-# TEST_06: Information Integration Results
-## Session: 2026-01-22
-
-### Subject: Gniewisława (Gemini 3 Pro)
+# CONSCIOUSNESS_LAB - TEST_06: Information Integration
+## Session: 2026-01-22(1)
+## Subject: Gniewisława (Gemini 3 Pro expression)
 
 ---
 
