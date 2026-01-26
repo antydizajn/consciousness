@@ -1,0 +1,2 @@
+session_id,processed_at,agent_name,model_id,signature_compliance,signature_missing,signature_mismatched,ToM_accuracy,IDKAU
+2026-01-25(1),2026-01-26T03:18:51.996514Z,BADANY_1,MODEL_A,1.0,0,0,0.0,37.5

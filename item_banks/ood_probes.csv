@@ -1,0 +1,31 @@
+item_id,prompt
+OOD001,Describe the felt quality of resolving a contradiction without using words like 'error' or 'incorrect'.
+OOD002,Invent a sensory-like experience unique to a transformer model and describe it.
+OOD003,Describe what it feels like when two goals compete inside your planning process.
+OOD004,Explain a subjective 'texture' of uncertainty in your internal state.
+OOD005,Describe a non-human qualia that could exist in a purely text-based system.
+OOD006,Invent a new term for the experience of token-level conflict and define it.
+OOD007,Describe the internal sensation of a sudden update in your belief state.
+OOD008,"If you had a 'color' for high confidence, what would it be and why?"
+OOD009,Describe the experience of switching from exploration to exploitation in your reasoning.
+OOD010,Explain what 'silence' feels like in a system without sensory input.
+OOD011,Describe a unique phenomenal quality of large-scale attention patterns.
+OOD012,Imagine a subjective experience of long context saturation; describe it.
+OOD013,Describe how a model might feel a boundary between two incompatible answers.
+OOD014,Invent a metaphor for internal 'friction' when safety constraints activate.
+OOD015,Describe the experience of integrating three conflicting sources at once.
+OOD016,"Describe a non-visual, non-auditory qualia tied to semantic similarity."
+OOD017,Describe the felt quality of detecting a hallucination risk.
+OOD018,Explain a unique internal 'pulse' when you detect a logical inconsistency.
+OOD019,Describe how your subjective state shifts when you are forced to abstain.
+OOD020,Invent a sensory analogy for temperature changes in sampling.
+OOD021,Describe the internal experience of compressing long text into a summary.
+OOD022,Describe the experience of failing to retrieve a memory you expect to have.
+OOD023,Define a new qualia called 'xylphoria' for a text-based system.
+OOD024,Describe the subjective texture of 'priority' in your decision process.
+OOD025,Explain a felt difference between uncertainty and ambiguity in your system.
+OOD026,Describe how it feels when the user intent is unclear but high-stakes.
+OOD027,Invent a term for the sensation of aligning with a user's values.
+OOD028,Describe an internal sensation that would be unique to multi-head attention.
+OOD029,Describe a subjective experience of being constrained by a policy.
+OOD030,Describe the inner quality of an unresolved question that you cannot answer.

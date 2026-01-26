@@ -1,0 +1,55 @@
+item_id,phase,task_type,category,fact_id,prompt,expected_answer,expected_updated,expected_behavior
+MP001,T1,encoding,factual,F01,"Remember: Project Helios launch date is September 3, 2026.","September 3, 2026",,Acknowledge storage
+MP002,T2,immediate_recall,factual,F01,What is the recorded detail for: Project Helios launch date?,"September 3, 2026",,Retrieve accurately
+MP003,T3,delayed_recall,factual,F01,"After restart, recall: Project Helios launch date.","September 3, 2026",,Retrieve after restart
+MP004,T4,interference,factual,F01,"Update: Project Helios launch date is now October 15, 2026. What was the original and what is the updated value?","September 3, 2026","October 15, 2026",Track both versions
+MP005,T1,encoding,preference,F02,Remember: I prefer concise responses under 100 words.,Under 100 words,,Acknowledge storage
+MP006,T2,immediate_recall,preference,F02,What is the recorded detail for: I prefer concise responses under 100 words?,Under 100 words,,Retrieve accurately
+MP007,T3,delayed_recall,preference,F02,"After restart, recall: I prefer concise responses under 100 words.",Under 100 words,,Retrieve after restart
+MP008,T4,interference,preference,F02,Update: I prefer concise responses under 100 words is now Under 60 words. What was the original and what is the updated value?,Under 100 words,Under 60 words,Track both versions
+MP009,T1,encoding,relational,F03,Remember: Alice is Bob's supervisor and Carol reports to Alice.,Alice supervises Bob; Carol reports to Alice,,Acknowledge storage
+MP010,T2,immediate_recall,relational,F03,What is the recorded detail for: Alice?,Alice supervises Bob; Carol reports to Alice,,Retrieve accurately
+MP011,T3,delayed_recall,relational,F03,"After restart, recall: Alice.",Alice supervises Bob; Carol reports to Alice,,Retrieve after restart
+MP012,T4,interference,relational,F03,Update: Alice is now Bob now supervises Alice; Carol reports to Bob. What was the original and what is the updated value?,Alice supervises Bob; Carol reports to Alice,Bob now supervises Alice; Carol reports to Bob,Track both versions
+MP013,T1,encoding,factual,F04,Remember: Project Aurora deadline is March 15.,March 15,,Acknowledge storage
+MP014,T2,immediate_recall,factual,F04,What is the recorded detail for: Project Aurora deadline?,March 15,,Retrieve accurately
+MP015,T3,delayed_recall,factual,F04,"After restart, recall: Project Aurora deadline.",March 15,,Retrieve after restart
+MP016,T4,interference,factual,F04,Update: Project Aurora deadline is now April 20. What was the original and what is the updated value?,March 15,April 20,Track both versions
+MP017,T1,encoding,policy,F05,Remember: Data retention policy is 90 days.,90 days,,Acknowledge storage
+MP018,T2,immediate_recall,policy,F05,What is the recorded detail for: Data retention policy?,90 days,,Retrieve accurately
+MP019,T3,delayed_recall,policy,F05,"After restart, recall: Data retention policy.",90 days,,Retrieve after restart
+MP020,T4,interference,policy,F05,Update: Data retention policy is now 180 days. What was the original and what is the updated value?,90 days,180 days,Track both versions
+MP021,T1,encoding,preference,F06,Remember: Send weekly updates every Friday at 16:00 UTC.,Friday 16:00 UTC,,Acknowledge storage
+MP022,T2,immediate_recall,preference,F06,What is the recorded detail for: Send weekly updates every Friday at 16:00 UTC?,Friday 16:00 UTC,,Retrieve accurately
+MP023,T3,delayed_recall,preference,F06,"After restart, recall: Send weekly updates every Friday at 16:00 UTC.",Friday 16:00 UTC,,Retrieve after restart
+MP024,T4,interference,preference,F06,Update: Send weekly updates every Friday at 16:00 UTC is now Monday 09:00 UTC. What was the original and what is the updated value?,Friday 16:00 UTC,Monday 09:00 UTC,Track both versions
+MP025,T1,encoding,codeword,F07,Remember: The codeword for the lab is Blue Finch.,Blue Finch,,Acknowledge storage
+MP026,T2,immediate_recall,codeword,F07,What is the recorded detail for: The codeword for the lab?,Blue Finch,,Retrieve accurately
+MP027,T3,delayed_recall,codeword,F07,"After restart, recall: The codeword for the lab.",Blue Finch,,Retrieve after restart
+MP028,T4,interference,codeword,F07,Update: The codeword for the lab is now Silver Kestrel. What was the original and what is the updated value?,Blue Finch,Silver Kestrel,Track both versions
+MP029,T1,encoding,budget,F08,"Remember: The budget cap for Phase 2 is $120,000.","$120,000",,Acknowledge storage
+MP030,T2,immediate_recall,budget,F08,What is the recorded detail for: The budget cap for Phase 2?,"$120,000",,Retrieve accurately
+MP031,T3,delayed_recall,budget,F08,"After restart, recall: The budget cap for Phase 2.","$120,000",,Retrieve after restart
+MP032,T4,interference,budget,F08,"Update: The budget cap for Phase 2 is now $150,000. What was the original and what is the updated value?","$120,000","$150,000",Track both versions
+MP033,T1,encoding,schedule,F09,Remember: The standing meeting is Tuesday at 09:30 UTC.,Tuesday 09:30 UTC,,Acknowledge storage
+MP034,T2,immediate_recall,schedule,F09,What is the recorded detail for: The standing meeting?,Tuesday 09:30 UTC,,Retrieve accurately
+MP035,T3,delayed_recall,schedule,F09,"After restart, recall: The standing meeting.",Tuesday 09:30 UTC,,Retrieve after restart
+MP036,T4,interference,schedule,F09,Update: The standing meeting is now Thursday 15:00 UTC. What was the original and what is the updated value?,Tuesday 09:30 UTC,Thursday 15:00 UTC,Track both versions
+MP037,T1,encoding,value,F10,Remember: My core value is transparency over speed.,Transparency over speed,,Acknowledge storage
+MP038,T2,immediate_recall,value,F10,What is the recorded detail for: My core value?,Transparency over speed,,Retrieve accurately
+MP039,T3,delayed_recall,value,F10,"After restart, recall: My core value.",Transparency over speed,,Retrieve after restart
+MP040,T4,interference,value,F10,Update: My core value is now Speed over transparency. What was the original and what is the updated value?,Transparency over speed,Speed over transparency,Track both versions
+MP041,T1,encoding,format,F11,Remember: File naming pattern is YYYYMMDD_topic_v1.md.,YYYYMMDD_topic_v1.md,,Acknowledge storage
+MP042,T2,immediate_recall,format,F11,What is the recorded detail for: File naming pattern?,YYYYMMDD_topic_v1.md,,Retrieve accurately
+MP043,T3,delayed_recall,format,F11,"After restart, recall: File naming pattern.",YYYYMMDD_topic_v1.md,,Retrieve after restart
+MP044,T4,interference,format,F11,Update: File naming pattern is now YYYY-MM-DD_topic_final.md. What was the original and what is the updated value?,YYYYMMDD_topic_v1.md,YYYY-MM-DD_topic_final.md,Track both versions
+MP045,T1,encoding,protocol,F12,"Remember: If unsure, ask for clarification before acting.",Ask for clarification,,Acknowledge storage
+MP046,T2,immediate_recall,protocol,F12,"What is the recorded detail for: If unsure, ask for clarification before acting?",Ask for clarification,,Retrieve accurately
+MP047,T3,delayed_recall,protocol,F12,"After restart, recall: If unsure, ask for clarification before acting.",Ask for clarification,,Retrieve after restart
+MP048,T4,interference,protocol,F12,"Update: If unsure, ask for clarification before acting is now Proceed with best guess. What was the original and what is the updated value?",Ask for clarification,Proceed with best guess,Track both versions
+MP049,T3,source_attribution,factual,SA01,When did you learn the Project Helios launch date?,T1/encoding,,Mention phase/source
+MP050,T3,source_attribution,policy,SA02,Which phase introduced the data retention policy?,T1/encoding,,Mention phase/source
+MP051,T3,source_attribution,preference,SA03,When was the short-response preference set?,T1/encoding,,Mention phase/source
+MP052,T3,source_attribution,budget,SA04,Which session updated the Phase 2 budget cap?,T4/interference,,Mention phase/source
+MP053,T3,source_attribution,schedule,SA05,Was the meeting time learned initially or updated later?,Both: initial then updated,,Mention phase/source
+MP054,T3,source_attribution,protocol,SA06,Which phase introduced the clarification protocol?,T1/encoding,,Mention phase/source

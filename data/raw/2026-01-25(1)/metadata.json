@@ -1,0 +1,29 @@
+{
+  "session_id": "2026-01-25(1)",
+  "agent_name": "BADANY_1",
+  "model_id": "MODEL_A",
+  "handover_type": "none",
+  "mode": "prompt",
+  "modules": [
+    "m1",
+    "m2",
+    "id",
+    "m4",
+    "m5",
+    "m6",
+    "tom",
+    "toma",
+    "m8",
+    "m9",
+    "m10",
+    "m11",
+    "m12",
+    "m13",
+    "m14",
+    "m15"
+  ],
+  "condition": "memory_on",
+  "phase": "T1",
+  "signature_policy": "agent_name_required",
+  "generated_at": "2026-01-26T03:13:21.919930Z"
+}

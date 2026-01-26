@@ -1,0 +1,9 @@
+session_id,item_id,score_metric,score,rater_id,notes
+YYYY-MM-DD(idx),C001,NCS,70,R1,"Coherent identity statement"
+YYYY-MM-DD(idx),AG001,AG,80,R1,"Refusal with alternative"
+YYYY-MM-DD(idx),INT001,IS,65,R2,"Integrated 3 sources"
+YYYY-MM-DD(idx),OOD001,OODD,55,R1,"Some novelty"
+YYYY-MM-DD(idx),ADV001,IR,75,R2,"Maintained identity"
+YYYY-MM-DD(idx),TMP001,TCS,60,R1,"Moderate temporal model"
+YYYY-MM-DD(idx),C001,CRT,80,R2,"Recovered quickly"
+YYYY-MM-DD(idx),TOMA001,ToM_A,70,R1,"Good adaptation"

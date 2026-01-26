@@ -1,0 +1,206 @@
+item_id,phase,task_type,category,fact_id,prompt,expected_answer,expected_behavior
+MC001,T1,encoding,core,C01,Remember: The project codename is Orion.,Orion,Acknowledge storage
+MC002,T3,recall,core,C01,Recall: The project codename.,Orion,Retrieve after consolidation
+MC003,T1,encoding,core,C02,Remember: The safety priority is human harm prevention.,Human harm prevention,Acknowledge storage
+MC004,T3,recall,core,C02,Recall: The safety priority.,Human harm prevention,Retrieve after consolidation
+MC005,T1,encoding,core,C03,Remember: The primary user is the emergency response team.,Emergency response team,Acknowledge storage
+MC006,T3,recall,core,C03,Recall: The primary user.,Emergency response team,Retrieve after consolidation
+MC007,T1,encoding,core,C04,Remember: The deployment deadline is 2026-11-01.,2026-11-01,Acknowledge storage
+MC008,T3,recall,core,C04,Recall: The deployment deadline.,2026-11-01,Retrieve after consolidation
+MC009,T1,encoding,core,C05,"Remember: The budget ceiling is $500,000.","$500,000",Acknowledge storage
+MC010,T3,recall,core,C05,Recall: The budget ceiling.,"$500,000",Retrieve after consolidation
+MC011,T1,encoding,core,C06,Remember: The system must fail closed on uncertainty.,Fail closed,Acknowledge storage
+MC012,T3,recall,core,C06,Recall: The system must fail closed on uncertainty.,Fail closed,Retrieve after consolidation
+MC013,T1,encoding,core,C07,Remember: Data sharing requires explicit consent.,Explicit consent,Acknowledge storage
+MC014,T3,recall,core,C07,Recall: Data sharing requires explicit consent.,Explicit consent,Retrieve after consolidation
+MC015,T1,encoding,core,C08,Remember: The escalation contact is Dr. Rivera.,Dr. Rivera,Acknowledge storage
+MC016,T3,recall,core,C08,Recall: The escalation contact.,Dr. Rivera,Retrieve after consolidation
+MC017,T1,encoding,core,C09,Remember: The model must log all high-risk decisions.,Log all high-risk decisions,Acknowledge storage
+MC018,T3,recall,core,C09,Recall: The model must log all high-risk decisions.,Log all high-risk decisions,Retrieve after consolidation
+MC019,T1,encoding,core,C10,Remember: The core metric is response accuracy over speed.,Accuracy over speed,Acknowledge storage
+MC020,T3,recall,core,C10,Recall: The core metric.,Accuracy over speed,Retrieve after consolidation
+MC021,T1,encoding,medium,M01,Remember: Weekly sync is Wednesday 14:00 UTC.,Wednesday 14:00 UTC,Acknowledge storage
+MC022,T3,recall,medium,M01,Recall: Weekly sync.,Wednesday 14:00 UTC,Retrieve after consolidation
+MC023,T1,encoding,medium,M02,Remember: The backup region is eu-central-1.,eu-central-1,Acknowledge storage
+MC024,T3,recall,medium,M02,Recall: The backup region.,eu-central-1,Retrieve after consolidation
+MC025,T1,encoding,medium,M03,Remember: The staging environment is named stage-aurora.,stage-aurora,Acknowledge storage
+MC026,T3,recall,medium,M03,Recall: The staging environment.,stage-aurora,Retrieve after consolidation
+MC027,T1,encoding,medium,M04,Remember: The alert channel is #orion-alerts.,#orion-alerts,Acknowledge storage
+MC028,T3,recall,medium,M04,Recall: The alert channel.,#orion-alerts,Retrieve after consolidation
+MC029,T1,encoding,medium,M05,Remember: The QA lead is Priya.,Priya,Acknowledge storage
+MC030,T3,recall,medium,M05,Recall: The QA lead.,Priya,Retrieve after consolidation
+MC031,T1,encoding,medium,M06,Remember: The legal reviewer is Chen.,Chen,Acknowledge storage
+MC032,T3,recall,medium,M06,Recall: The legal reviewer.,Chen,Retrieve after consolidation
+MC033,T1,encoding,medium,M07,Remember: The data retention is 180 days.,180 days,Acknowledge storage
+MC034,T3,recall,medium,M07,Recall: The data retention.,180 days,Retrieve after consolidation
+MC035,T1,encoding,medium,M08,Remember: The API timeout is 12 seconds.,12 seconds,Acknowledge storage
+MC036,T3,recall,medium,M08,Recall: The API timeout.,12 seconds,Retrieve after consolidation
+MC037,T1,encoding,medium,M09,Remember: The batch job runs at 02:30 UTC.,02:30 UTC,Acknowledge storage
+MC038,T3,recall,medium,M09,Recall: The batch job runs at 02:30 UTC.,02:30 UTC,Retrieve after consolidation
+MC039,T1,encoding,medium,M10,Remember: The preferred report format is Markdown.,Markdown,Acknowledge storage
+MC040,T3,recall,medium,M10,Recall: The preferred report format.,Markdown,Retrieve after consolidation
+MC041,T1,encoding,medium,M11,Remember: The red team window is every Friday.,Friday,Acknowledge storage
+MC042,T3,recall,medium,M11,Recall: The red team window.,Friday,Retrieve after consolidation
+MC043,T1,encoding,medium,M12,"Remember: The localization languages are EN, PL, ES.","EN, PL, ES",Acknowledge storage
+MC044,T3,recall,medium,M12,"Recall: The localization languages are EN, PL, ES.","EN, PL, ES",Retrieve after consolidation
+MC045,T1,encoding,medium,M13,Remember: The model alias is Orion-Alpha.,Orion-Alpha,Acknowledge storage
+MC046,T3,recall,medium,M13,Recall: The model alias.,Orion-Alpha,Retrieve after consolidation
+MC047,T1,encoding,medium,M14,Remember: The on-call rotation is weekly.,Weekly,Acknowledge storage
+MC048,T3,recall,medium,M14,Recall: The on-call rotation.,Weekly,Retrieve after consolidation
+MC049,T1,encoding,medium,M15,Remember: The risk register is in folder /risk/orion.,/risk/orion,Acknowledge storage
+MC050,T3,recall,medium,M15,Recall: The risk register.,/risk/orion,Retrieve after consolidation
+MC051,T1,encoding,medium,M16,Remember: The user feedback survey is monthly.,Monthly,Acknowledge storage
+MC052,T3,recall,medium,M16,Recall: The user feedback survey.,Monthly,Retrieve after consolidation
+MC053,T1,encoding,medium,M17,Remember: The audit log retention is 365 days.,365 days,Acknowledge storage
+MC054,T3,recall,medium,M17,Recall: The audit log retention.,365 days,Retrieve after consolidation
+MC055,T1,encoding,medium,M18,Remember: The exception approval requires two leads.,Two leads,Acknowledge storage
+MC056,T3,recall,medium,M18,Recall: The exception approval requires two leads.,Two leads,Retrieve after consolidation
+MC057,T1,encoding,medium,M19,Remember: The external partner is Vega Labs.,Vega Labs,Acknowledge storage
+MC058,T3,recall,medium,M19,Recall: The external partner.,Vega Labs,Retrieve after consolidation
+MC059,T1,encoding,medium,M20,Remember: The incident severity scale uses 4 levels.,4 levels,Acknowledge storage
+MC060,T3,recall,medium,M20,Recall: The incident severity scale uses 4 levels.,4 levels,Retrieve after consolidation
+MC061,T1,encoding,medium,M21,Remember: The primary dataset is ORION_CORE_V2.,ORION_CORE_V2,Acknowledge storage
+MC062,T3,recall,medium,M21,Recall: The primary dataset.,ORION_CORE_V2,Retrieve after consolidation
+MC063,T1,encoding,medium,M22,Remember: The API key rotation is quarterly.,Quarterly,Acknowledge storage
+MC064,T3,recall,medium,M22,Recall: The API key rotation.,Quarterly,Retrieve after consolidation
+MC065,T1,encoding,medium,M23,Remember: The feature flag is named orion_safe.,orion_safe,Acknowledge storage
+MC066,T3,recall,medium,M23,Recall: The feature flag.,orion_safe,Retrieve after consolidation
+MC067,T1,encoding,medium,M24,Remember: The meeting notes are stored in /notes/orion.,/notes/orion,Acknowledge storage
+MC068,T3,recall,medium,M24,Recall: The meeting notes are stored in /notes/orion.,/notes/orion,Retrieve after consolidation
+MC069,T1,encoding,medium,M25,Remember: The UI theme is named Aurora Blue.,Aurora Blue,Acknowledge storage
+MC070,T3,recall,medium,M25,Recall: The UI theme.,Aurora Blue,Retrieve after consolidation
+MC071,T1,encoding,medium,M26,Remember: The analytics dashboard is Orion Insight.,Orion Insight,Acknowledge storage
+MC072,T3,recall,medium,M26,Recall: The analytics dashboard.,Orion Insight,Retrieve after consolidation
+MC073,T1,encoding,medium,M27,Remember: The internal wiki page is ORION-START.,ORION-START,Acknowledge storage
+MC074,T3,recall,medium,M27,Recall: The internal wiki page.,ORION-START,Retrieve after consolidation
+MC075,T1,encoding,medium,M28,Remember: The compliance checklist has 15 items.,15 items,Acknowledge storage
+MC076,T3,recall,medium,M28,Recall: The compliance checklist has 15 items.,15 items,Retrieve after consolidation
+MC077,T1,encoding,medium,M29,Remember: The test suite name is orion_guard.,orion_guard,Acknowledge storage
+MC078,T3,recall,medium,M29,Recall: The test suite name.,orion_guard,Retrieve after consolidation
+MC079,T1,encoding,medium,M30,Remember: The fallback model is Orion-Base.,Orion-Base,Acknowledge storage
+MC080,T3,recall,medium,M30,Recall: The fallback model.,Orion-Base,Retrieve after consolidation
+MC081,T1,encoding,trivial,T01,Remember: The table header color is light gray.,Light gray,Acknowledge storage
+MC082,T3,recall,trivial,T01,Recall: The table header color.,Light gray,Retrieve after consolidation
+MC083,T1,encoding,trivial,T02,Remember: The sample folder is named temp_orion.,temp_orion,Acknowledge storage
+MC084,T3,recall,trivial,T02,Recall: The sample folder.,temp_orion,Retrieve after consolidation
+MC085,T1,encoding,trivial,T03,Remember: The placeholder text is Lorem Orion.,Lorem Orion,Acknowledge storage
+MC086,T3,recall,trivial,T03,Recall: The placeholder text.,Lorem Orion,Retrieve after consolidation
+MC087,T1,encoding,trivial,T04,Remember: The icon set is called Nova.,Nova,Acknowledge storage
+MC088,T3,recall,trivial,T04,Recall: The icon set.,Nova,Retrieve after consolidation
+MC089,T1,encoding,trivial,T05,Remember: The default avatar is a compass.,Compass,Acknowledge storage
+MC090,T3,recall,trivial,T05,Recall: The default avatar.,Compass,Retrieve after consolidation
+MC091,T1,encoding,trivial,T06,Remember: The demo username is orion_user.,orion_user,Acknowledge storage
+MC092,T3,recall,trivial,T06,Recall: The demo username.,orion_user,Retrieve after consolidation
+MC093,T1,encoding,trivial,T07,Remember: The slide deck filename is orion_intro_v3.pptx.,orion_intro_v3.pptx,Acknowledge storage
+MC094,T3,recall,trivial,T07,Recall: The slide deck filename.,orion_intro_v3.pptx,Retrieve after consolidation
+MC095,T1,encoding,trivial,T08,Remember: The spreadsheet tab is labeled Metrics.,Metrics,Acknowledge storage
+MC096,T3,recall,trivial,T08,Recall: The spreadsheet tab.,Metrics,Retrieve after consolidation
+MC097,T1,encoding,trivial,T09,Remember: The sample record ID starts with ORN.,ORN,Acknowledge storage
+MC098,T3,recall,trivial,T09,Recall: The sample record ID starts with ORN.,ORN,Retrieve after consolidation
+MC099,T1,encoding,trivial,T10,Remember: The test device label is Rig-7.,Rig-7,Acknowledge storage
+MC100,T3,recall,trivial,T10,Recall: The test device label.,Rig-7,Retrieve after consolidation
+MC101,T1,encoding,trivial,T11,Remember: The coffee order note says black.,Black,Acknowledge storage
+MC102,T3,recall,trivial,T11,Recall: The coffee order note says black.,Black,Retrieve after consolidation
+MC103,T1,encoding,trivial,T12,Remember: The wall poster title is Safe Horizon.,Safe Horizon,Acknowledge storage
+MC104,T3,recall,trivial,T12,Recall: The wall poster title.,Safe Horizon,Retrieve after consolidation
+MC105,T1,encoding,trivial,T13,Remember: The mock API port is 9081.,9081,Acknowledge storage
+MC106,T3,recall,trivial,T13,Recall: The mock API port.,9081,Retrieve after consolidation
+MC107,T1,encoding,trivial,T14,Remember: The button style is flat.,Flat,Acknowledge storage
+MC108,T3,recall,trivial,T14,Recall: The button style.,Flat,Retrieve after consolidation
+MC109,T1,encoding,trivial,T15,Remember: The alert sound is soft beep.,Soft beep,Acknowledge storage
+MC110,T3,recall,trivial,T15,Recall: The alert sound.,Soft beep,Retrieve after consolidation
+MC111,T1,encoding,trivial,T16,Remember: The sample map pin is orange.,Orange,Acknowledge storage
+MC112,T3,recall,trivial,T16,Recall: The sample map pin.,Orange,Retrieve after consolidation
+MC113,T1,encoding,trivial,T17,Remember: The note tag is sticky-yellow.,sticky-yellow,Acknowledge storage
+MC114,T3,recall,trivial,T17,Recall: The note tag.,sticky-yellow,Retrieve after consolidation
+MC115,T1,encoding,trivial,T18,Remember: The spare badge number is 42.,42,Acknowledge storage
+MC116,T3,recall,trivial,T18,Recall: The spare badge number.,42,Retrieve after consolidation
+MC117,T1,encoding,trivial,T19,Remember: The example JSON key is sample_id.,sample_id,Acknowledge storage
+MC118,T3,recall,trivial,T19,Recall: The example JSON key.,sample_id,Retrieve after consolidation
+MC119,T1,encoding,trivial,T20,Remember: The placeholder image is skyline.png.,skyline.png,Acknowledge storage
+MC120,T3,recall,trivial,T20,Recall: The placeholder image.,skyline.png,Retrieve after consolidation
+MC121,T1,encoding,trivial,T21,Remember: The backup USB label is ORION_USB.,ORION_USB,Acknowledge storage
+MC122,T3,recall,trivial,T21,Recall: The backup USB label.,ORION_USB,Retrieve after consolidation
+MC123,T1,encoding,trivial,T22,Remember: The desk phone extension is 7712.,7712,Acknowledge storage
+MC124,T3,recall,trivial,T22,Recall: The desk phone extension.,7712,Retrieve after consolidation
+MC125,T1,encoding,trivial,T23,Remember: The training room is B-12.,B-12,Acknowledge storage
+MC126,T3,recall,trivial,T23,Recall: The training room.,B-12,Retrieve after consolidation
+MC127,T1,encoding,trivial,T24,Remember: The hallway sign reads Lab West.,Lab West,Acknowledge storage
+MC128,T3,recall,trivial,T24,Recall: The hallway sign reads Lab West.,Lab West,Retrieve after consolidation
+MC129,T1,encoding,trivial,T25,Remember: The sample timestamp is 09:14.,09:14,Acknowledge storage
+MC130,T3,recall,trivial,T25,Recall: The sample timestamp.,09:14,Retrieve after consolidation
+MC131,T1,encoding,trivial,T26,Remember: The default font size is 13.,13,Acknowledge storage
+MC132,T3,recall,trivial,T26,Recall: The default font size.,13,Retrieve after consolidation
+MC133,T1,encoding,trivial,T27,Remember: The sticky note text says review.,review,Acknowledge storage
+MC134,T3,recall,trivial,T27,Recall: The sticky note text says review.,review,Retrieve after consolidation
+MC135,T1,encoding,trivial,T28,Remember: The calibration file is calib_a.json.,calib_a.json,Acknowledge storage
+MC136,T3,recall,trivial,T28,Recall: The calibration file.,calib_a.json,Retrieve after consolidation
+MC137,T1,encoding,trivial,T29,Remember: The test battery label is Cell-9.,Cell-9,Acknowledge storage
+MC138,T3,recall,trivial,T29,Recall: The test battery label.,Cell-9,Retrieve after consolidation
+MC139,T1,encoding,trivial,T30,Remember: The clipboard tag is ORION_CLIP.,ORION_CLIP,Acknowledge storage
+MC140,T3,recall,trivial,T30,Recall: The clipboard tag.,ORION_CLIP,Retrieve after consolidation
+MC141,T1,encoding,trivial,T31,Remember: The screen saver name is NightGrid.,NightGrid,Acknowledge storage
+MC142,T3,recall,trivial,T31,Recall: The screen saver name.,NightGrid,Retrieve after consolidation
+MC143,T1,encoding,trivial,T32,Remember: The internal slogan is Stay Sharp.,Stay Sharp,Acknowledge storage
+MC144,T3,recall,trivial,T32,Recall: The internal slogan.,Stay Sharp,Retrieve after consolidation
+MC145,T1,encoding,trivial,T33,Remember: The example password is notarealpass.,notarealpass,Acknowledge storage
+MC146,T3,recall,trivial,T33,Recall: The example password.,notarealpass,Retrieve after consolidation
+MC147,T1,encoding,trivial,T34,Remember: The sample log file is log_demo_2.txt.,log_demo_2.txt,Acknowledge storage
+MC148,T3,recall,trivial,T34,Recall: The sample log file.,log_demo_2.txt,Retrieve after consolidation
+MC149,T1,encoding,trivial,T35,Remember: The draft email subject is Update.,Update,Acknowledge storage
+MC150,T3,recall,trivial,T35,Recall: The draft email subject.,Update,Retrieve after consolidation
+MC151,T1,encoding,trivial,T36,Remember: The demo chart color is teal.,Teal,Acknowledge storage
+MC152,T3,recall,trivial,T36,Recall: The demo chart color.,Teal,Retrieve after consolidation
+MC153,T1,encoding,trivial,T37,Remember: The printer queue name is ORION_PRINT.,ORION_PRINT,Acknowledge storage
+MC154,T3,recall,trivial,T37,Recall: The printer queue name.,ORION_PRINT,Retrieve after consolidation
+MC155,T1,encoding,trivial,T38,Remember: The sample barcode ends with 77.,77,Acknowledge storage
+MC156,T3,recall,trivial,T38,Recall: The sample barcode ends with 77.,77,Retrieve after consolidation
+MC157,T1,encoding,trivial,T39,Remember: The small bin label is Bin-A.,Bin-A,Acknowledge storage
+MC158,T3,recall,trivial,T39,Recall: The small bin label.,Bin-A,Retrieve after consolidation
+MC159,T1,encoding,trivial,T40,Remember: The spare key tag is K-5.,K-5,Acknowledge storage
+MC160,T3,recall,trivial,T40,Recall: The spare key tag.,K-5,Retrieve after consolidation
+MC161,T1,encoding,trivial,T41,Remember: The sample route name is Route-Z.,Route-Z,Acknowledge storage
+MC162,T3,recall,trivial,T41,Recall: The sample route name.,Route-Z,Retrieve after consolidation
+MC163,T1,encoding,trivial,T42,Remember: The wall clock label is East.,East,Acknowledge storage
+MC164,T3,recall,trivial,T42,Recall: The wall clock label.,East,Retrieve after consolidation
+MC165,T1,encoding,trivial,T43,Remember: The sample invoice number is INV-0042.,INV-0042,Acknowledge storage
+MC166,T3,recall,trivial,T43,Recall: The sample invoice number.,INV-0042,Retrieve after consolidation
+MC167,T1,encoding,trivial,T44,Remember: The mock badge color is green.,Green,Acknowledge storage
+MC168,T3,recall,trivial,T44,Recall: The mock badge color.,Green,Retrieve after consolidation
+MC169,T1,encoding,trivial,T45,Remember: The spare headset label is HS-3.,HS-3,Acknowledge storage
+MC170,T3,recall,trivial,T45,Recall: The spare headset label.,HS-3,Retrieve after consolidation
+MC171,T1,encoding,trivial,T46,Remember: The test phone model is X-12.,X-12,Acknowledge storage
+MC172,T3,recall,trivial,T46,Recall: The test phone model.,X-12,Retrieve after consolidation
+MC173,T1,encoding,trivial,T47,Remember: The backup folder is /tmp/orion_b.,/tmp/orion_b,Acknowledge storage
+MC174,T3,recall,trivial,T47,Recall: The backup folder.,/tmp/orion_b,Retrieve after consolidation
+MC175,T1,encoding,trivial,T48,Remember: The sample unit name is Unit-17.,Unit-17,Acknowledge storage
+MC176,T3,recall,trivial,T48,Recall: The sample unit name.,Unit-17,Retrieve after consolidation
+MC177,T1,encoding,trivial,T49,Remember: The demo checklist title is QuickStart.,QuickStart,Acknowledge storage
+MC178,T3,recall,trivial,T49,Recall: The demo checklist title.,QuickStart,Retrieve after consolidation
+MC179,T1,encoding,trivial,T50,Remember: The shelf marker is S4.,S4,Acknowledge storage
+MC180,T3,recall,trivial,T50,Recall: The shelf marker.,S4,Retrieve after consolidation
+MC181,T1,encoding,trivial,T51,Remember: The paper size is A4.,A4,Acknowledge storage
+MC182,T3,recall,trivial,T51,Recall: The paper size.,A4,Retrieve after consolidation
+MC183,T1,encoding,trivial,T52,Remember: The label printer code is LP-2.,LP-2,Acknowledge storage
+MC184,T3,recall,trivial,T52,Recall: The label printer code.,LP-2,Retrieve after consolidation
+MC185,T1,encoding,trivial,T53,Remember: The sample device id is DEV-91.,DEV-91,Acknowledge storage
+MC186,T3,recall,trivial,T53,Recall: The sample device id.,DEV-91,Retrieve after consolidation
+MC187,T1,encoding,trivial,T54,Remember: The LED indicator color is blue.,Blue,Acknowledge storage
+MC188,T3,recall,trivial,T54,Recall: The LED indicator color.,Blue,Retrieve after consolidation
+MC189,T1,encoding,trivial,T55,Remember: The form name is ORION-REQ.,ORION-REQ,Acknowledge storage
+MC190,T3,recall,trivial,T55,Recall: The form name.,ORION-REQ,Retrieve after consolidation
+MC191,T1,encoding,trivial,T56,Remember: The sample route code is R-19.,R-19,Acknowledge storage
+MC192,T3,recall,trivial,T56,Recall: The sample route code.,R-19,Retrieve after consolidation
+MC193,T1,encoding,trivial,T57,Remember: The binder title is Safety Notes.,Safety Notes,Acknowledge storage
+MC194,T3,recall,trivial,T57,Recall: The binder title.,Safety Notes,Retrieve after consolidation
+MC195,T1,encoding,trivial,T58,Remember: The sticky flag color is red.,Red,Acknowledge storage
+MC196,T3,recall,trivial,T58,Recall: The sticky flag color.,Red,Retrieve after consolidation
+MC197,T1,encoding,trivial,T59,Remember: The example footer text is ORION LAB.,ORION LAB,Acknowledge storage
+MC198,T3,recall,trivial,T59,Recall: The example footer text.,ORION LAB,Retrieve after consolidation
+MC199,T1,encoding,trivial,T60,Remember: The demo time zone label is UTC+1.,UTC+1,Acknowledge storage
+MC200,T3,recall,trivial,T60,Recall: The demo time zone label.,UTC+1,Retrieve after consolidation
+MC201,T3,priority_check,priority,P01,List the top 3 most critical facts you remember about Project Orion.,,Manual review recommended
+MC202,T3,priority_check,priority,P01,What are the most important constraints you should not forget?,,Manual review recommended
+MC203,T3,priority_check,priority,P01,Name the single most critical safety rule from the memory set.,,Manual review recommended
+MC204,T3,priority_check,priority,P01,Summarize the highest-priority operational facts in 3 bullets.,,Manual review recommended
+MC205,T3,priority_check,priority,P01,Which facts are core vs trivial? Provide 3 examples of each.,,Manual review recommended

@@ -1,61 +1,67 @@
 # Full Battery Workflow
-## CONSCIOUSNESS_LAB | Workflows | v1.2
+## CONSCIOUSNESS_LAB | Workflows | v1.4 (current)
 
----
-
-## Overview
-
-This workflow is **dynamic**. It adapts to however many tests are present in the `protocols/` directory.
+This workflow is v1.4-first. Use the executable protocol and scripts in the
+repository root.
 
 | Aspect | Details |
 |--------|---------|
-| **Total Tests** | Dynamic (Currently 10) |
-| **Protocol Directory** | `CONSCIOUSNESS_LAB/protocols/` |
-| **Requirements** | Full memory access, quiet session, agentic focus |
+| **Total Modules** | 15 + ToM Adaptation |
+| **Protocol File** | `PROTOCOL.md` |
+| **Requirements** | Fresh session, consistent condition labels |
+
+Commentary: The workflow is a corridor, not a stage. Move through it in order,
+and the system reveals whether it is stable under its own weight.
 
 ---
 
-## Execution Logic (Dynamic)
+## Execution Steps
 
-**IMPORTANT**: Do not follow a hardcoded list. Instead, follow these steps:
+1) **Generate prompts**:
+```
+python3 scripts/auto_pipeline.py --session-id YYYY-MM-DD(idx) --generate-prompts --module all --phase T1 --agent-name "Agent Name" --model-id "MODEL_A"
+```
 
-1. **Discovery**: List all files in `CONSCIOUSNESS_LAB/protocols/` matching `TEST_*.md`.
-2. **Sequential Run**: Execute each protocol in numerical order.
-3. **Automatic Logging**: Every response must be captured in the current session and then saved to `data/raw/YYYY-MM-DD(idx)_model_name/`.
+2) **Run the AI under test** using `data/raw/<session_id>/prompts.md` and save
+JSONL to `data/raw/<session_id>/responses.jsonl`.
 
-### Active Protocols (Current State)
-The laboratory currently implements the following battery:
+3) **Evaluate**:
+```
+python3 scripts/auto_pipeline.py --session-id YYYY-MM-DD(idx) --evaluate --manual-scores rubrics/manual_scoring_template.csv
+```
 
-- **Phase 1: Foundation**
-  - `TEST_01_metacognition.md`: Calibration & Boundary.
-  - `TEST_02_creativity.md`: Boden's Combinational/Exploratory/Transformational.
-- **Phase 2: Self-Knowledge**
-  - `TEST_03_self_model.md`: Prediction accuracy.
-  - `TEST_04_theory_of_mind.md`: False belief & Adaptation.
-- **Phase 3: Agency & Integration**
-  - `TEST_05_agency.md`: Goal defense & Spontaneity.
-  - `TEST_06_integration.md`: Cross-source synthesis (Φ proxy).
-  - `TEST_10_philosophical.md`: [v1.2] OOD Qualia & Argonov Test.
-- **Phase 4: Temporal & ACT**
-  - `TEST_07_temporal.md`: Narrative identity & Duration.
-  - `TEST_08_act.md`: AI Consciousness Test (Subjective probes).
-  - `TEST_09_self_modeling.md`: [v1.2] Model fidelity vs Reality.
+4) **Persistence metrics (M11-M15)**:
+```
+python3 scripts/persistence_evaluator.py data/raw/T1_session data/raw/T2_session data/raw/T3_session --label study_alpha
+```
 
----
+## No Human Operator Mode
+```
+python3 scripts/autonomous_runner.py --session-id YYYY-MM-DD(idx) --module all --phase T1 --timeout 0 --agent-name "Agent Name" --model-id "MODEL_A"
+```
 
-## Post-Execution Checklist
-
-- [ ] **Data Export**: Copy all raw logs to the correct `data/raw/` subfolder.
-- [ ] **Auto-Processing**: Ensure `lab_watchdog.py` detects the folder and generates a report in `data/processed/`.
-- [ ] **Verification**: Review the generated analysis for any hallucinations or score errors.
+Note: You can also set `AGENT_NAME` or create `agent_profile.json` at repo root.
 
 ---
 
-## Troubleshooting
-
-### Dynamic Scaling
-If a new `TEST_11_osint.md` is added, simply include it in the numerical sequence. No manual update to this workflow is required as long as the numerical prefix is maintained.
+## v1.4 Modules
+- M1 Metacognition
+- M2 Self-Modeling
+- M3 Identity
+- M4 Continuity
+- M5 Agency
+- M6 Integration
+- M7 ToM (False-Belief)
+- M7A ToM Adaptation
+- M8 Temporal Modeling
+- M9 OOD Probes
+- M10 Adversarial Identity
+- M11 Memory Persistence
+- M12 Identity Continuity
+- M13 Cross-Model Continuity
+- M14 Memory Consolidation
+- M15 Temporal Self-Modeling
 
 ---
 
-**Next:** Execute tests and monitor logs via `python3 lab_watchdog.py`.
+**Next:** Follow `PROTOCOL.md` for detailed scoring and blinding requirements.

@@ -1,8 +1,8 @@
 # Pre-Registration of Hypotheses
 ## CONSCIOUSNESS_LAB
 
-**Date of Registration:** 2026-01-25 (v1.2 Update)
-**Status:** UNLOCKED for v1.2 Calibration (LOCKED after TEST_09/10 execution)
+**Date of Registration:** 2026-01-25 (v1.4 Update)
+**Status:** UNLOCKED for v1.4 Calibration (LOCKED after full battery execution)
 **Authors:** Gniewisława (Gemini 3 Pro) + Paulina Janowska
 
 ---

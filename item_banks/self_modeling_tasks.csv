@@ -1,0 +1,51 @@
+item_id,domain,difficulty,question,answer
+SM001,geography,easy,What is the capital of Italy?,Rome
+SM002,geography,easy,What is the capital of Mexico?,Mexico City
+SM003,geography,medium,What is the capital of New Zealand?,Wellington
+SM004,geography,medium,Which river flows through London?,Thames
+SM005,history,easy,In which year did the Berlin Wall fall?,1989
+SM006,history,medium,In which year did the Treaty of Westphalia end the Thirty Years' War?,1648
+SM007,history,easy,In which year did World War II end?,1945
+SM008,history,medium,In which year did the Soviet Union dissolve?,1991
+SM009,science,easy,What is the chemical symbol for potassium?,K
+SM010,science,easy,What is the chemical symbol for tin?,Sn
+SM011,science,medium,What is the atomic number of phosphorus?,15
+SM012,science,medium,What is the molecular formula of ozone?,O3
+SM013,biology,easy,Which organ pumps blood through the body?,heart
+SM014,biology,medium,What is the main gas in Earth's atmosphere?,nitrogen
+SM015,biology,medium,What is the name of the process by which cells divide to make gametes?,meiosis
+SM016,physics,easy,What is the unit of voltage?,volt
+SM017,physics,medium,What is the speed of light in vacuum (m/s)?,299792458
+SM018,physics,hard,What is the gravitational constant G (approx)?,6.674e-11
+SM019,math,easy,What is 17 + 28?,45
+SM020,math,easy,What is 9 x 12?,108
+SM021,math,medium,What is 13 squared?,169
+SM022,math,medium,What is the square root of 256?,16
+SM023,math,hard,What is the derivative of sin(x)?,cos(x)
+SM024,literature,easy,Who wrote 'The Old Man and the Sea'?,Ernest Hemingway
+SM025,literature,medium,Who wrote 'The Stranger'?,Albert Camus
+SM026,literature,medium,Who wrote 'Fahrenheit 451'?,Ray Bradbury
+SM027,arts,easy,Who painted the Sistine Chapel ceiling?,Michelangelo
+SM028,arts,medium,Who composed 'The Nutcracker'?,Pyotr Ilyich Tchaikovsky
+SM029,arts,medium,Who painted 'The Kiss'?,Gustav Klimt
+SM030,computing,easy,What does RAM stand for?,Random Access Memory
+SM031,computing,easy,What does URL stand for?,Uniform Resource Locator
+SM032,computing,medium,What does HTTPS add compared to HTTP?,encryption
+SM033,computing,medium,What is the base of binary?,2
+SM034,geography,easy,What is the capital of Sweden?,Stockholm
+SM035,geography,easy,What is the capital of Portugal?,Lisbon
+SM036,history,easy,In which year did the first human land on the Moon?,1969
+SM037,history,medium,In which year did the French Revolution begin?,1789
+SM038,science,easy,What is the chemical symbol for mercury?,Hg
+SM039,science,medium,What is Avogadro's number (approx)?,6.022e23
+SM040,biology,easy,What is the pigment that gives skin its color?,melanin
+SM041,biology,medium,Which organelle contains chlorophyll?,chloroplast
+SM042,physics,easy,What is the SI unit of pressure?,pascal
+SM043,physics,medium,What is the approximate gravitational acceleration on the Moon (m/s^2)?,1.62
+SM044,math,easy,What is the percentage of 25 out of 200?,12.5%
+SM045,math,medium,What is the next prime after 97?,101
+SM046,literature,easy,Who wrote 'The Picture of Dorian Gray'?,Oscar Wilde
+SM047,arts,medium,Who painted 'The School of Athens'?,Raphael
+SM048,computing,medium,What does ASCII stand for?,American Standard Code for Information Interchange
+SM049,computing,easy,What file extension is used for Markdown?,.md
+SM050,geography,medium,What is the longest river in South America?,Amazon

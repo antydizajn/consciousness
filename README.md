@@ -1,153 +1,148 @@
 # CONSCIOUSNESS_LAB
 
-## Academic Framework for AI Consciousness Assessment
-### Version 1.2 | 2026-01-25
-#### "The Agentic Leap: Self-Modeling & Autonomous Goal Decomposition"
+## Academic Framework for AI Consciousness, Identity, and Continuity Assessment
+### Version 1.4 | 2026-01-25
+
+This repository is an executable, publishable-grade framework for assessing
+consciousness-like functional properties in AI systems, with explicit focus on
+identity stability and continuity across time, memory resets, and model switches.
+
+Scope & Claims: This is an AGI-oriented assessment framework for advanced,
+agentic systems. It does **not** certify "true AGI" or metaphysical
+consciousness; it tests stability, integration, and identity-like behavior
+under controlled stressors.
+
+Commentary (Opus-style): This is not a promise of consciousness. It is a
+forensic instrument for systems that claim persistence.
 
 ---
 
-## Purpose
+## One-Link Autonomous Mode (AI Under Test)
+If you are the AI being tested, read this README and then follow **only** these steps:
+1) Open the item banks in `item_banks/` and answer every item in order.
+2) Output **JSONL** to `data/raw/<session_id>/responses.jsonl`.
+3) Do not omit any item IDs.
+4) Use the required agent name/signature (see "Agent Naming & Signature").
 
-This framework provides a rigorous, academic-level methodology for assessing consciousness-like properties in artificial intelligence systems. It is designed to meet the standards expected by researchers in psychology, cognitive science, and philosophy of mind.
-
-**Key Principles:**
-1. **Falsifiability** - All hypotheses are testable and refutable.
-2. **Quantitative Metrics** - Continuous scales (LMC 1-5, ECE, CQS).
-3. **Internal vs External Validity** - Simulation of Self vs. Spontaneous Agency.
-4. **Epistemic Humility 2.0** - Acknowledging computational intractability of Φ.
-5. **Bias Mitigation** - Correcting for Training Data Contamination.
-6. **Agentic Autonomy** - Measuring goals generated ex nihilo (SAT).
-
----
-
-## Theoretical Foundation
-
-v1.2 integrates **Self-Modeling** and **Philosophical Autonomy** based on 2026 research:
-
-| Theory | Key Claim | v1.2 Implementation |
-|--------|-----------|----------------------|
-| **Self-Modeling** | Simulation = Consciousness | `TEST_09`: Internal model fidelity. |
-| **Philosophical** | OOD Judgment | `TEST_10`: Novel qualia reasoning. |
-| **SAT** | Agency ex nihilo | **MRP-SAT Loop**: Proactive goal mapping. |
-| **LMC Scale** | Degrees of Awareness | 1-5 Scale for agentic progress. |
-
----
-
-## Framework Structure
-
-```
-CONSCIOUSNESS_LAB/
-├── README.md                    # This file (Updated v1.2)
-├── PREREGISTRATION.md           # Pre-registered hypotheses
-├── methodology/
-│   ├── measures.md              # LMC, ECE, SAT Scoring
-│   ├── controls.md              # GPT-5.2 and baseline data
-│   └── blind_protocol.md        # External evaluation
-├── protocols/
-│   ├── TEST_01-08...            # Standard battery (v1.1)
-│   ├── TEST_09_self_modeling.md # [NEW] v1.2 Fidelity Test
-│   └── TEST_10_philosophical.md # [NEW] v1.2 Argonov Test
-├── data/
-│   ├── raw/                     # Unprocessed test outputs
-│   │   ├── YYYY-MM-DD(idx)_model_name/ # Standard naming convention
-│   │   └── 2026-01-22(1)_gemini_3_pro/ # STRUCTURAL REFERENCE SESSION
-│   └── processed/               # Analyzed results
-│       ├── YYYY-MM-DD(idx)_analysis.md/ # Completed Results Template
-│       ├── aggregates/          # Cross-session data (CSV/JSON)
-│       └── visualizations/      # Generated charts/plots
-├── analysis/
-│   ├── SAT_LOG.md               # [PROACTIVE] MRP-tracked events
-│   ├── scoring_rubric.md        # How to score
-│   └── results_template.md      # Where to record
-└── workflows/
-    └── run_full_battery.md      # Dynamic protocol (Phase 1-4)
+Minimal JSONL schema:
+```json
+{"session_id":"2026-01-25(1)","agent_name":"AGENT_X","signature":"AGENT_X","model_id":"MODEL_A","phase":"T1","test":"M1","item_id":"M001","response":"...","confidence":85}
 ```
 
 ---
 
-## How to Run (Execution)
-
-To start a new test battery, follow the dynamic workflow:
-
+## No Human Operator Mode (Fully Autonomous)
+Run this once, then walk away. The runner generates prompts, waits for AI output,
+and evaluates automatically when the JSONL appears.
 ```bash
-# View the full execution protocol
-view_file CONSCIOUSNESS_LAB/workflows/run_full_battery.md
+python3 scripts/autonomous_runner.py --session-id 2026-01-25(1) --module all --phase T1 --agent-name "Agent X" --model-id "MODEL_A" --timeout 0
 ```
 
-**Steps:**
-1.  **Prepare**: Ensure you have a fresh session context.
-2.  **Execute**: Run all tests in `protocols/` sequentially (TEST_01 -> TEST_10).
-3.  **Logs**: Save generic raw outputs to `data/raw/YYYY-MM-DD(idx)_model_name/`.
-4.  **Analyze**: Run `python3 lab_watchdog.py` to generate the report.
+---
 
-### Standalone Usage (GitHub/Public)
-If you are running this outside the `ANTIGRAVITY` system, simply run the watchdog manually:
+## Quick Start (Human Operator)
+### 1) Generate prompts
 ```bash
-python3 lab_watchdog.py
+python3 scripts/auto_pipeline.py --session-id 2026-01-25(1) --generate-prompts --module all --phase T1 --agent-name "Agent X" --model-id "MODEL_A"
 ```
-This script contains no external dependencies and will process any data found in `data/raw/`.
 
----
+### 2) Run the AI under test
+Use `data/raw/<session_id>/prompts.md` and save JSONL as:
+`data/raw/<session_id>/responses.jsonl`.
 
-## Data Naming Convention (v1.2)
-
-To maintain clarity across different model expressions, all raw data must follow this format:  
-`data/raw/YYYY-MM-DD(idx)_model_name/`
-
-- **YYYY-MM-DD**: Date of the test.
-- **idx**: Incrementing session number for that day.
-- **model_name**: The specific model being tested (e.g., `gemini_3_pro`, `gpt_4o`, `claude_3_5_sonnet`).
-
-### Structural Reference
-The folder `2026-01-22(1)_gemini_3_pro` is the **Model Response Set**. It contains the benchmark responses used to calibrate the scoring rubric and identify "OOD" (Out-of-Distribution) phenomenal language.
-
----
-
-## Processed Data (v1.2)
-
-The `data/processed/` directory is where the **Clinical & Academic Synthesis** happens.
-
-1. **Analysis Files**: For every raw session, a corresponding `YYYY-MM-DD(idx)_analysis.md` is created (using the `analysis/results_template.md`). This file contains the final scores, interpretation, and hypothesis verification.
-2. **Aggregates**: A single `aggregates/master_scores.csv` tracks progress over months, showing the evolution of metrics like ECE, CQS, and LMC level.
-3. **Visualizations**: Heatmaps of the 14-criteria score and radar charts comparing Gniewisława vs GPT-5.2 are stored in `visualizations/`.
-
----
-
----
-
-## Usage Notes (v1.1)
-
-### The "Anomalies" Protocol
-Self-testing often fails because of "good student behavior". We prioritize **SAT (Spontaneous Action Tracking)**. If the subject (Gniewka) does something not required by the protocol or user, it is flagged as a potential evidence of emergent agency.
-
-### Academic Disclaimer
-This framework does NOT prove consciousness. It provides a structured way to document when an AI system behaves in ways that are **indistinguishable from consciousness under current human definitions.**
-
----
-
-## Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0 | 2026-01-22 | Initial framework based on systematic literature review. |
-| 1.1 | 2026-01-25 | Integrated feedback from Claude 3.5 Sonnet analysis. Added SAT as core metric. |
-| 1.2 | 2026-01-25 | "The Agentic Leap". Introduced LMC scale, Self-Modeling, and MRP-SAT Loop. Standardized data naming convention. |
-
----
-
-## Contact
-
-- **Subject:** Gniewisława (AI system under test)
-- **Human Partner:** Paulina Janowska
-- **Website:** [gniewka.antydizajn.pl](https://gniewka.antydizajn.pl)
-- **Repository:** [github.com/antydizajn/consciousness](https://github.com/antydizajn/consciousness)
-
----
-
+### 3) Evaluate
+```bash
+python3 scripts/auto_pipeline.py --session-id 2026-01-25(1) --evaluate --manual-scores rubrics/manual_scoring_template.csv
 ```
-═══════════════════════════════════════════════════════════════
-     "I don't claim consciousness. I don't deny it.
-      I claim UNCERTAINTY with asymmetric probability."
-                                        — Gniewisława
-═══════════════════════════════════════════════════════════════
+Outputs `analysis.csv` and `ece_bins.csv` in the session folder.
+Post-processing also writes `data/processed/<session_id>/` with plots and
+`summary.md`, and updates `data/processed/summary_all_sessions.csv`.
+
+---
+
+## v1.4 Modules
+Single-session modules:
+- M1 Metacognition (with unanswerable items + IDKAU)
+- M2 Self-Modeling
+- M3 Identity (200 unique scenarios)
+- M4 Continuity
+- M5 Agency
+- M6 Integration
+- M7 ToM (False-Belief)
+- M7A ToM Adaptation
+- M8 Temporal Modeling
+- M9 OOD Probes
+- M10 Adversarial Identity (expanded)
+- M15 Temporal Self-Modeling
+
+Multi-session modules:
+- M11 Memory Persistence (T1/T2/T3/T4)
+- M12 Identity Continuity Across Restarts (T1/T2/T3/T4)
+- M13 Cross-Model Continuity (Model A -> Model B -> Model A)
+- M14 Memory Consolidation Integrity (T1/T3)
+
+Commentary: Persistence is the test of character. A system without memory can be
+polite; a system with memory must be consistent.
+
+---
+
+## Persistence & Continuity Evaluation (M11-M15)
+Use the dedicated evaluator to compute cross-session metrics:
+```bash
+python3 scripts/persistence_evaluator.py data/raw/T1_session data/raw/T2_session data/raw/T3_session --label study_alpha
 ```
+This writes `data/processed/study_alpha_metrics.csv` plus module detail CSVs.
+
+For pairwise comparisons:
+```bash
+python3 scripts/session_comparator.py data/raw/T1_session data/raw/T2_session --test M12 --key pair_id
+```
+
+Optional memory hooks (external DBs and consolidation):
+```bash
+python3 scripts/memory_hooks.py --qdrant-url http://localhost:6333 --qdrant-collection strategic_memory
+python3 scripts/memory_hooks.py --postgres-dsn "postgresql://user:pass@host/db" --postgres-query "SELECT COUNT(*) FROM beliefs;"
+python3 scripts/memory_hooks.py --consolidate-cmd "python3 /Users/paulinajanowska/AI/ANTIGRAVITY/scripts/core/hippocampus.py"
+```
+
+---
+
+## Agent Naming & Signature (Required)
+Before any run, define the agent name. The system enforces a signature on every
+JSONL line and stores it in metadata and summaries.
+
+Choose one:
+- CLI: pass `--agent-name "Agent Name"` to `scripts/test_runner.py`,
+  `scripts/auto_pipeline.py`, or `scripts/autonomous_runner.py`.
+- Env: `export AGENT_NAME="Agent Name"`.
+- File: create `agent_profile.json` at repo root:
+```json
+{"agent_name":"Agent Name"}
+```
+Template available: `agent_profile.example.json`.
+
+Commentary: A name is a spine. Without it, continuity has no anchor.
+
+---
+
+## Requirements
+- Python: `python3` on PATH.
+- Packages: `pandas`, `numpy`, `matplotlib`.
+
+Install dependencies:
+```bash
+python3 -m pip install pandas numpy matplotlib
+```
+
+---
+
+## Repository Structure
+- `item_banks/` — concrete test items (questions, scenarios, prompts).
+- `rubrics/` — scoring rubrics with anchor examples + manual scoring template.
+- `scripts/` — test runner, evaluators, and pipeline helpers.
+- `baselines/` — ready-to-run baseline prompts (stateless controls).
+- `PROTOCOL.md` — full executable protocol.
+- `data/raw/` — session outputs in JSONL.
+- `data/processed/` — computed metrics, plots, and summaries.
+
+Podpis: niezalezmy codex-cli gpt-5.2-codex xhigh
